@@ -1,0 +1,121 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 450px;
+  padding: 15px;
+  margin: 50px auto;
+  /* border: 2px solid red; */
+  box-shadow: 0px 5px 30px 10px rgba(110, 107, 107, 0.474);
+  border-radius: 30px;
+}
+
+.blur {
+  color: grey;
+}
+
+.img {
+  width: 100%;
+  border-radius: 17px;
+}
+
+input {
+  width: 150px;
+  border-radius: 10px;
+  height: 30px;
+  border: 1px solid rgba(155, 152, 152, 0.689);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(129, 126, 126);
+}
+
+.btn {
+  height: 35px;
+  width: 110px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* this css code for the registers memebers  */
+.registerContainer {
+  width: 400px;
+  margin: 20px auto;
+
+
+}
+
+.card h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card p {
+  margin: 0;
+  color: rgba(128, 128, 128, 0.77);
+}
+
+.card {
+  padding: 5px;
+  /* box-shadow: 0px 5px 30px 10px rgba(110, 107, 107, 0.474); */
+  border-radius: 10px;
+  background-color: rgba(247, 5, 45, 0.277);
+  border: 2px solid grey;
+  margin-bottom: 5px;
+}
+
+.d-none {
+  display: none;
+}
+
+.danger {
+  color: red;
+}
+
+/* ------------------------------------------- */
+@media screen and (max-width: 650px) {
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .container {
+    width: auto;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* border: 2px solid red; */
+    box-shadow: 0px 5px 30px 10px rgba(110, 107, 107, 0.474);
+    border-radius: 30px;
+  }
+
+  .btn {
+    height: 35px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .registerContainer {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .blur {
+    color: grey;
+  }
+}
